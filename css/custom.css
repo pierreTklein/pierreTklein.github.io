@@ -8,18 +8,25 @@
     margin-left: auto;
 }
 
+.me_container {
+    margin-top: 5%;
+    padding-bottom: 10%;
+}
+
+.content_container {
+    margin-top: 10%;    
+}
+
 @media (min-width: 750px) {
     .me {
         margin: auto;
     }
-}
 
-.me_container {
-    margin-top: 5%;
-}
-
-@media (min-width: 750px) {
     .me_container {
+        margin-top: 25%;
+    }
+
+    .content_container {
         margin-top: 25%;
     }
 }
