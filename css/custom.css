@@ -1,0 +1,18 @@
+.me {
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+    object-position: 100% 15%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;    
+}
+.me_container {
+    margin-top: 5%;
+}
+
+@media (min-width: 750px) {
+    .me_container {
+        margin-top: 25%;
+    }
+}
