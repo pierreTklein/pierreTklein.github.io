@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Logic Gates!</title>
+	</head>
+	<h1 ><font size="7">Logic Gates</font></h1>
+	<link rel="stylesheet" type="text/css" href="./css/logic.css">
+	<body id = "mainPart">
+		<canvas class="maze" id="runner" height="500" width="600"></canvas><br>
+		Enter in a logical expression, such as "AND(a,b)", or "or(and(xor(A,B),C),and(true,B))":<br>
+		<textarea rows="4" cols="50" id="expression">OR(OR(AND(AND(P,Q),R),AND(AND(P,Q),S)),OR(AND(AND(P,R),S),AND(AND(Q,R),S)))</textarea><br>
+
+		<button class="buttonBlue" id="submitExpression">Submit</button> 
+		<button class="buttonBlue" id="generateTT" onclick="generateTruthTable()">Generate Truth Table</button> 
+		<button class="buttonBlue" id="appendExpression">Append</button>	
+		
+		<p>This generator was written in Javascript / Canvas. Made by Pierre Theo Klein, 2017</p>	
+		<a id = "home" href="./">HOME</a>
+		<script src="./js/logic.js"></script>
+	</body>
+</html>

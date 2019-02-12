@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kepler's laws in 2D</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="./css/kepler's_law.css">
+	<body id = "mainPart">
+		<div class = "runner_and_buttons">
+			<p>
+				<script src="./js/kepler's_law_html_helper.js" type="text/javascript"></script>
+				<button class="buttonBlue" id="restart" >RESET</button>
+				<button class="buttonBlue" id="add">add mass</button>
+				<button class="buttonBlue" id="add_stable" >add stable body</button>
+				<button class="buttonBlue" id="remove_all">remove all</button>
+				<button class="buttonBlue" id="remove_gone">remove out of screen</button>
+				<button class="buttonRed" id="remove_select" onclick="changeRemoveModeAndPause()">remove mode: OFF</button>
+				<button class="buttonGreen" id="pause_and_resume" onclick="changeColor('pause_and_resume',['buttonRed','buttonGreen'],true)">pause</button>
+				<button class="buttonGreen" id="collisions" onclick="changeColor('collisions',['buttonRed','buttonGreen'],false)">collisions: ON</button>
+				<button class="buttonRed" id="debug" onclick="changeColor('debug',['buttonRed','buttonGreen'],false)">debug: OFF</button>
+				<!--<button class="buttonGrey" id="music" onclick="changeColor('music',['buttonGrey','buttonGreen'],false)">♫</button>-->
+			</p>
+			<canvas id="runner" width="1000" height="650"></canvas>
+			<p>
+			  	<label id="labelForZoomScale" for="timeScale" class="labelBlue"> Zoom factor (1x):</label>
+				<input type="range" class="range" id="zoomScale" value="20">
+ 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  	<label id="labelForTimeScale" for="timeScale" class="labelBlue"> Time scale (1x):</label>
+				<input type="range" class="range" id="timeScale" value="20">
+ 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  	<label id="labelForSM" for="sunMass" class="labelBlue">Mass of Sun (10000 u):</label>
+				<input type="range" class="range" id="sunMass" value="50">
+
+			</p>
+			<script src="./js/planet_simulator.js"></script>
+			<p id="err"></p>
+			<p id="stats"></p>
+
+		</div>
+		<div class="datagrid" id="datagrid">
+		  <!-- Table starts here -->
+		</div>
+	</body>
+	<p>This simulation was written in Javascript / Canvas. Made by Pierre Theo Klein, 2016</p>	
+</html>
