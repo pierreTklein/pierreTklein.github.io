@@ -357,7 +357,7 @@ function animations() {
                 this.firstVertex.setValues(this.location.x + (Math.cos(this.heading + (2 * Math.PI / 3) * i)) * this.radius, this.location.y + (Math.sin(this.heading + (2 * Math.PI / 3) * i)) * this.radius)
                 context.lineTo(this.firstVertex.x, this.firstVertex.y);
             }
-            context.fillStyle = '#949494';
+            context.fillStyle = '#222222';
             context.fill();
             context.closePath();
         }
