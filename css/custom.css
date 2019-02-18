@@ -1,3 +1,12 @@
+.runner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 .me {
     width: 240px;
     height: 255px;
@@ -17,17 +26,29 @@
     margin-top: 10%;    
 }
 
+.card {
+	background: white;
+	border-radius: 9px;
+	box-shadow: rgba(0,0,0,0.1) 0 10px 34px;
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 @media (min-width: 750px) {
     .me {
         margin: auto;
     }
 
     .me_container {
-        margin-top: 25%;
+        margin-top: 10%;    
     }
+}
 
-    .content_container {
-        margin-top: 25%;
+@media (min-width: 1000px) {
+    .card {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
