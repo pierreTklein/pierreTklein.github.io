@@ -1,3 +1,7 @@
+html{
+    background: whitesmoke;
+}
+
 .runner {
     position: absolute;
     left: 0;
@@ -47,8 +51,9 @@
 
 @media (min-width: 1000px) {
     .card {
-        margin-left: 10%;
-        margin-right: 10%;
+        max-width: 875px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
