@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://pierretheoklein.com/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://pierretheoklein.com/old_site/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pierretheoklein.com/old_site/projects/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pierretheoklein.com/docs/Pierre_Theo_Klein_F18.pdf</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pierretheoklein.com/old_site/projects/huffman_encoding/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pierretheoklein.com/old_site/projects/logic/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pierretheoklein.com/old_site/projects/maze/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pierretheoklein.com/old_site/projects/tron/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pierretheoklein.com/old_site/projects/shepherd/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pierretheoklein.com/old_site/projects/space_race/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pierretheoklein.com/old_site/projects/space_sim/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
