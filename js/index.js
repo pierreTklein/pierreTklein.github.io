@@ -382,7 +382,7 @@ function animations() {
     }
 
     function setEventListeners() {
-        document.getElementById("runner").addEventListener("click", function (e) {
+        document.getElementById("body").addEventListener("click", function (e) {
             var x;
             var y;
             if (e.pageX || e.pageY) {
