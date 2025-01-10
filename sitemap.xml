@@ -13,6 +13,11 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://pierretheoklein.com/talks/</loc>
+  <lastmod>2019-02-18T21:01:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://pierretheoklein.com/old_site/</loc>
   <lastmod>2019-02-18T21:01:53+00:00</lastmod>
   <priority>0.80</priority>
